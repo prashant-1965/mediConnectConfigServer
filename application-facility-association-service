@@ -2,7 +2,7 @@ spring:
   application:
     name: application-facility-association-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/facility_service
+    url: jdbc:postgresql://localhost:5432/application_facility_association_service
     username: ${username}
     password: ${password}
     driver-class-name: org.postgresql.Driver
@@ -14,7 +14,7 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     properties:
       hibernate:
-        default_schema: facility_service
+        default_schema: application_facility_association_service
 eureka:
   instance:
     lease-renewal-interval-in-seconds: 10
